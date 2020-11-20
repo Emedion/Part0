@@ -1,0 +1,7 @@
+Browser --> Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa
+Server --> Browser: HTML Codes
+
+Contents are manipulated by JavaScript
+Browser executes Js-codes
+
+#Done

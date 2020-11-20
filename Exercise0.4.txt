@@ -1,0 +1,18 @@
+Browser --> Server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/notes 
+Server --> browser: Redirect 
+Browser --> Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/notes
+Server --> Browser: HTML codes
+Browser --> Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css
+Server --> Browser: main.css
+Browser --> Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.js
+Server --> Browser: main.js
+
+Browser requests executes codes on main.js and request for JSON data
+Browser --> Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
+Server--> Browser: data.json
+Browser --> Server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/data.json
+
+note
+The Server then creates a new note object and adds the note to an array called 'notes'.
+
+#Done

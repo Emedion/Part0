@@ -1,0 +1,4 @@
+Browser --> Server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/spa./new_notes_spa
+Server --> Browser: Content:"new_note", date: "time and date stamp"
+
+#Done
